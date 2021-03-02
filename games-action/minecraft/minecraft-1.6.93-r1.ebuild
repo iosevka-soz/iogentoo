@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 2020-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -9,8 +9,7 @@ MY_JAR="${PN}-launcher-${PV}.jar"
 
 DESCRIPTION="Official Java launcher for Minecraft"
 HOMEPAGE="https://minecraft.net"
-SRC_URI="https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar -> ${MY_JAR}
-	https://minecraft.net/android-icon-192x192.png -> ${PN}.png"
+SRC_URI="https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar -> ${MY_JAR}"
 
 LICENSE="Minecraft-clickwrap-EULA"
 SLOT="0"
