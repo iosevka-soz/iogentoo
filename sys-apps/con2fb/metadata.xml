@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM 'http://www.gentoo.org/dtd/metadata.dtd'>
 <pkgmetadata>
-    <maintainer type="person">
-        <email>iosevka@protonmail.com</email>
-        <name>Iosevka</name>
-    </maintainer>
-    <upstream>
+	<maintainer type="person">
+		<email>iosevka@protonmail.com</email>
+		<name>Iosevka</name>
+	</maintainer>
+	<upstream>
 		<remote-id type="github">iosevka-soz/con2fb</remote-id>
-    </upstream>
-    <longdescription>
-        Utility for mapping linux consoles (tty) to framebuffer devices.
-    </longdescription>
+	</upstream>
+	<longdescription>
+		Utility for mapping linux consoles (tty) to framebuffer devices.
+	</longdescription>
 </pkgmetadata>

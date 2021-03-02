@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>gentoo+bugs@flussence.eu</email>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://bugs.mojang.com</bugs-to>
+	</upstream>
+	<longdescription lang="en">
+		This package installs the launcher for the Java version of Minecraft.
+		The launcher downloads the game itself and most of its dependencies.
+	</longdescription>
+</pkgmetadata>
