@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit unpacker xdg-utils
+inherit unpacker
 
 MY_PN="Bitwarden"
 DESCRIPTION="Bitwarden password manager desktop client"
@@ -59,22 +59,9 @@ src_install() {
 	doins -r opt/${MY_PN}
 	fperms 755 /opt/Bitwarden/bitwarden
 	fperms 4755 /opt/Bitwarden/chrome-sandbox
-	dosym opt/${MY_PN}bitwarden /usr/bin/bitwarden
-
-	insinto /usr/share/applications
-	doins usr/share/applications/bitwarden.desktop
+	dosym /opt/${MY_PN}/bitwarden /usr/bin/bitwarden
 
 	insinto /usr/share/icons
 	doins -r usr/share/icons/hicolor
 
-}
-
-pkg_postinst() {
-	xdg_desktop_database_update
-	xdg_icon_cache_update
-}
-
-pkg_postrm() {
-	xdg_desktop_database_update
-	xdg_icon_cache_update
 }
