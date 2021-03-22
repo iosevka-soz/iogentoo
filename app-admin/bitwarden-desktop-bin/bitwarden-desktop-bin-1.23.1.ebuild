@@ -59,7 +59,7 @@ src_install() {
 	doins -r opt/${MY_PN}
 	fperms 755 /opt/Bitwarden/bitwarden
 	fperms 4755 /opt/Bitwarden/chrome-sandbox
-	dosym /opt/${MY_PN}/bitwarden /usr/bin/bitwarden
+	dosym opt/${MY_PN}/bitwarden /usr/bin/bitwarden
 
 	insinto /usr/share/icons
 	doins -r usr/share/icons/hicolor
