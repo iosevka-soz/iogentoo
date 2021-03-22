@@ -46,9 +46,6 @@ RDEPEND="
 	x11-libs/pango
 "
 
-DEPEND="${RDEPEND}
-	!app-admin/bitwarden-desktop-bin::gentoo"
-
 S="${WORKDIR}"
 
 QA_PREBUILT="
